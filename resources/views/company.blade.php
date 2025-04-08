@@ -5,7 +5,7 @@
 
 @section('content')
 <!-- start page title section -->
-<section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5" style="background-image: url(https://via.placeholder.com/1925x1050)">
+<section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5"  style="background-image: url('{{ asset('images/website-images/hero.jpg') }}');">>
     <div class="opacity-light bg-dark-gray"></div>
     <div class="container">
         <div class="row align-items-center justify-content-center small-screen">
@@ -65,7 +65,7 @@
     <div class="container-fluid p-0"> 
         <div class="row justify-content-center g-0">
             <div class="col-lg-6 md-h-550px xs-h-400px overflow-hidden" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="h-100 cover-background" style="background-image: url(https://via.placeholder.com/960x762)"></div>
+                <div class="h-100 cover-background"style="background-image: url('{{ asset('images/website-images/customers.jpg') }}');"></div>
             </div>
             <div class="col-lg-6 col-md-10 ps-8 pe-8 pt-7 pb-7" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 200, "staggervalue": 100, "easing": "easeOutQuad" }'> 
                 <h2 class="alt-font fw-500 text-white ls-minus-2px">Passion for All signage’s .</h2> 
@@ -95,54 +95,7 @@
 </section>
 <!-- end features section -->
 
-<!-- start expertise section -->
-<section>
-    <div class="container"> 
-        <div class="row justify-content-center">
-            <div class="row justify-content-center mb-2">
-                <div class="col-lg-7 text-center" data-anime='{ "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <span class="fw-600 ls-1px fs-16 alt-font d-inline-block text-uppercase mb-5px text-base-color">Work performance</span>
-                    <h2 class="alt-font text-dark-gray fw-600 ls-minus-2px">Our expertise</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center align-items-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-            <!-- start pie chart item -->
-            <div class="col md-mb-50px sm-mb-40px">
-                <div class="chart-percent mb-25px">
-                    <span class="pie-chart-style-01 d-flex align-items-center justify-content-center text-center" data-line-width="7" data-percent="96" data-track-color="#f6d8cc" data-start-color="#f66c34" data-end-color="#f49a76">
-                        <span class="percent d-flex align-items-center justify-content-center alt-font fs-40 ls-minus-2px text-dark-gray fw-600"></span>
-                    </span>
-                </div>
-                <div class="chart-text text-center fs-20 alt-font text-dark-gray fw-600 mb-5px">Strategy consulting</div>
-                <p class="w-80 lg-w-90 sm-w-100 mx-auto mb-0 text-center">Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</p>
-            </div>
-            <!-- end pie chart item -->
-            <!-- start pie chart item -->
-            <div class="col md-mb-50px sm-mb-40px">
-                <div class="chart-percent mb-25px">
-                    <span class="pie-chart-style-01 d-flex align-items-center justify-content-center text-center" data-line-width="7" data-percent="88" data-track-color="#f6d8cc" data-start-color="#f66c34" data-end-color="#f49a76">
-                        <span class="percent d-flex align-items-center justify-content-center alt-font fs-40 ls-minus-2px text-dark-gray fw-600"></span>
-                    </span>
-                </div>
-                <div class="chart-text text-center fs-20 alt-font text-dark-gray fw-600 mb-5px">Modeling analytics</div>
-                <p class="w-80 lg-w-90 sm-w-100 mx-auto mb-0 text-center">Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</p>
-            </div>
-            <!-- end pie chart item -->
-            <!-- start pie chart item -->
-            <div class="col">
-                <div class="chart-percent mb-25px">
-                    <span class="pie-chart-style-01 d-flex align-items-center justify-content-center text-center" data-line-width="7" data-percent="90" data-track-color="#f6d8cc" data-start-color="#f66c34" data-end-color="#f49a76">
-                        <span class="percent d-flex align-items-center justify-content-center alt-font fs-40 ls-minus-2px text-dark-gray fw-600"></span>
-                    </span>
-                </div>
-                <div class="chart-text text-center fs-20 alt-font text-dark-gray fw-600 mb-5px">Operations careers</div>
-                <p class="w-80 lg-w-90 sm-w-100 mx-auto mb-0 text-center">Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</p>
-            </div>
-            <!-- end pie chart item --> 
-        </div>
-    </div>
-</section>
+
 <!-- end expertise section -->
 
 <!-- start why choose us section -->
@@ -222,39 +175,56 @@
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1 text-center text-lg-start" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-                <h2 class="alt-font fw-600 text-dark-gray ls-minus-2px">Why choose our company services?</h2>
-                <p class="w-90 xs-w-100 mx-auto mx-lg-0">Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam.</p>
-                <a href="{{ route('contact') }}" class="btn btn-large btn-dark-gray btn-box-shadow mt-10px btn-round-edge">Get started now!</a>
-            </div>
+                <h2 class="alt-font fw-600 text-dark-gray ls-minus-2px">Mission</h2>
+                <p class="w-90 xs-w-100 mx-auto mx-lg-0">
+                    To provide our customers with the highest quality signage in the quickest turn-around time and at the most competitive prices.
+                </p>
+                <h2 class="alt-font fw-600 text-dark-gray ls-minus-2px">Strategy & Vision</h2>
+                <p class="w-90 xs-w-100 mx-auto mx-lg-0">
+                    Impex Sign Work strives to be the market leader in introducing innovative, cost-effective, and reliable signage that is manufactured to meet and exceed standards. We grow by learning from the past and envisioning the future of signage.
+                </p>
+            </div>            
+            
         </div>
     </div>
 </section>
 <!-- end why choose us section -->
+<section class="py-5 bg-light">
+    <div class="container text-center">
+        <div class="col-xl-6 col-lg-8 col-md-9 mx-auto mb-5">
+            <span class="fw-600 ls-1px fs-16 alt-font d-inline-block text-uppercase mb-2 text-base-color">
+                Trusted Clients
+            </span>
+            <h2 class="alt-font text-dark-gray fw-600 ls-minus-2px mb-3">
+                Our Partners
+            </h2>
+           
+        </div>
 
-<!-- start clients section -->
-<section class="bg-very-light-gray pt-0">
-    <div class="container"> 
-        <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 text-center justify-content-center align-items-center clients-style-06" data-anime='{"el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-            <!-- start client item -->
-            <div class="col client-box text-center md-mb-40px">
-                <a href="#"><img src="{{ asset('images/logo-logitech.svg') }}" class="h-40px" alt=""></a>
+        <div class="row justify-content-center align-items-center g-4">
+            <!-- Client 1 -->
+            <div class="col-6 col-md-2 d-flex justify-content-center align-items-center">
+                <img src="{{ asset('images/website-images/kcb.png') }}" alt="KCB" style="width: 120px; height: auto;">
             </div>
-            <!-- end client item -->
-            <!-- start client item -->
-            <div class="col client-box text-center md-mb-40px">
-                <a href="#"><img src="{{ asset('images/logo-amazon.svg') }}" class="h-40px" alt=""></a>
+
+            <div class="col-6 col-md-2 d-flex justify-content-center align-items-center">
+                <img src="{{ asset('images/website-images/crd.png') }}" alt="KCB" style="width: 120px; height: auto;">
             </div>
-            <!-- end client item -->
-            <!-- start client item -->
-            <div class="col client-box text-center xs-mb-40px">
-                <a href="#"><img src="{{ asset('images/logo-walmart.svg') }}" class="h-40px" alt=""></a>
+
+            <!-- Client 2 -->
+            <div class="col-6 col-md-2 d-flex justify-content-center align-items-center">
+                <img src="{{ asset('images/website-images/aml.png') }}" alt="AML" style="width: 120px; height: auto;">
             </div>
-            <!-- end client item -->
-            <!-- start client item -->
-            <div class="col client-box text-center">
-                <a href="#"><img src="{{ asset('images/logo-yahoo.svg') }}" class="h-40px" alt=""></a>
+
+            <!-- Client 3 -->
+            <div class="col-6 col-md-2 d-flex justify-content-center align-items-center">
+                <img src="{{ asset('images/website-images/equit.png') }}" alt="Equity" style="width: 120px; height: auto;">
             </div>
-            <!-- end client item --> 
+
+            <!-- Client 4 -->
+            <div class="col-6 col-md-2 d-flex justify-content-center align-items-center">
+                <img src="{{ asset('images/website-images/taifagas.png') }}" alt="Taifa Gas" style="width: 120px; height: auto;">
+            </div>
         </div>
     </div>
 </section>
