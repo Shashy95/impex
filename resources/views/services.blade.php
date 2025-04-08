@@ -5,7 +5,7 @@
 
 @section('content')
 <!-- start page title section -->
-<section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5" style="background-image: url(https://via.placeholder.com/1925x1050)">
+<section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5" style="background-image: url('{{ asset('images/website-images/hero.jpg') }}');">
     <div class="opacity-light bg-dark-gray"></div>
     <div class="container">
         <div class="row align-items-center justify-content-center small-screen">
@@ -25,86 +25,6 @@
 </section>
 <!-- end page title section -->
 
-<!-- start services grid section -->
-<!-- start services grid section -->
-<section class="p-0 bg-very-light-gray">
-    <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center align-items-center border-top border-color-light-medium-gray" data-anime='{ "el": "childs", "translateX": [-20, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
-            <!-- start service item -->
-            <div class="col fancy-text-box-style-01 border-color-light-medium-gray p-0">
-                <div class="text-box-wrapper align-items-center d-flex">
-                    <div class="position-relative text-center w-100">
-                        <div class="text-box last-paragraph-no-margin p-14">
-                            <i class="line-icon-Cursor-Click2 icon-extra-large d-block mb-20px text-base-color"></i>
-                            <span class="alt-font text-dark-gray fw-500 fs-22 lg-fs-20 ls-minus-05px">Strategies</span>
-                            <p>Business planning</p>
-                        </div>
-                        <div class="text-box-hover p-16 lg-p-12 md-p-17 sm-p-12 xs-p-17"> 
-                            <p class="mb-15px">Comprehensive business strategy development and implementation.</p>
-                            <a href="#" class="btn btn-link btn-large text-base-color thin fw-600">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end service item -->
-            
-            <!-- start service item -->
-            <div class="col fancy-text-box-style-01 border-color-light-medium-gray p-0">
-                <div class="text-box-wrapper align-items-center d-flex">
-                    <div class="position-relative text-center w-100">
-                        <div class="text-box last-paragraph-no-margin p-14">
-                            <i class="line-icon-Money-Bag icon-extra-large d-block mb-20px text-base-color"></i>
-                            <span class="alt-font text-dark-gray fw-500 fs-22 lg-fs-20 ls-minus-05px">Finance</span>
-                            <p>Financial advisory</p>
-                        </div>
-                        <div class="text-box-hover p-16 lg-p-12 md-p-17 sm-p-12 xs-p-17"> 
-                            <p class="mb-15px">Expert financial planning and investment strategies.</p>
-                            <a href="#" class="btn btn-link btn-large text-base-color thin fw-600">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end service item -->
-            
-            <!-- start service item -->
-            <div class="col fancy-text-box-style-01 border-color-light-medium-gray p-0">
-                <div class="text-box-wrapper align-items-center d-flex">
-                    <div class="position-relative text-center w-100">
-                        <div class="text-box last-paragraph-no-margin p-14">
-                            <i class="line-icon-Like icon-extra-large d-block mb-20px text-base-color"></i>
-                            <span class="alt-font text-dark-gray fw-500 fs-22 lg-fs-20 ls-minus-05px">Marketing</span>
-                            <p>Digital campaigns</p>
-                        </div>
-                        <div class="text-box-hover p-16 lg-p-12 md-p-17 sm-p-12 xs-p-17"> 
-                            <p class="mb-15px">Effective digital marketing strategies for business growth.</p>
-                            <a href="#" class="btn btn-link btn-large text-base-color thin fw-600">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end service item -->
-            
-            <!-- start service item -->
-            <div class="col fancy-text-box-style-01 border-color-light-medium-gray p-0">
-                <div class="text-box-wrapper align-items-center d-flex">
-                    <div class="position-relative text-center w-100">
-                        <div class="text-box last-paragraph-no-margin p-14">
-                            <i class="line-icon-Archery-2 icon-extra-large d-block mb-20px text-base-color"></i>
-                            <span class="alt-font text-dark-gray fw-500 fs-22 lg-fs-20 ls-minus-05px">Planning</span>
-                            <p>Strategic development</p>
-                        </div>
-                        <div class="text-box-hover p-16 lg-p-12 md-p-17 sm-p-12 xs-p-17"> 
-                            <p class="mb-15px">Long-term business planning and goal setting.</p>
-                            <a href="#" class="btn btn-link btn-large text-base-color thin fw-600">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end service item -->
-        </div>
-    </div>
-</section>
-<!-- end services grid section -->
 
 <!-- start results section -->
 <section id="down-section" class="position-relative">
@@ -190,186 +110,227 @@
     <div class="container">
         <div class="row justify-content-center mb-4">
             <div class="col-lg-7 text-center" data-anime='{"opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="fw-600 ls-1px fs-16 alt-font d-inline-block text-uppercase mb-5px text-base-color">Innovative solutions</span>
-                <h2 class="alt-font text-dark-gray fw-600 ls-minus-2px">Consulting services</h2>
+                <span class="fw-600 ls-1px fs-16 alt-font d-inline-block text-uppercase mb-5px text-base-color">Our Expertise</span>
+                <h2 class="alt-font text-dark-gray fw-600 ls-minus-2px">Branding Solutions</h2>
             </div>
         </div>
-        
+
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "willchange": "transform", "scale": [0.9, 1], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
-            <!-- start service item -->
+
+            <!-- START LOOP OF SERVICES -->
+            <!-- Iconic 3D LED Signage -->
             <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
-                <div class="feature-box h-100 justify-content-start border-radius-5px bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover p-18 md-p-16 last-paragraph-no-margin">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
                     <div class="feature-box-icon">
-                        <a href="#">
-                            <i class="line-icon-Address-Book2 icon-double-large text-base-color mb-25px"></i>
-                        </a>
+                        <i class="line-icon-Light-Bulb icon-double-large text-base-color mb-25px"></i>
                     </div>
                     <div class="feature-box-content">
-                        <a href="#" class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Audit Assurance</a>
-                        <p>Comprehensive financial audit services for your business.</p>
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Iconic 3D LED Signage</span>
+                        <p>High-visibility signage with striking illumination and dimensional design.</p>
                     </div>
-                </div>  
+                </div>
             </div>
-            <!-- end service item -->
-            
-            <!-- start service item -->
+
+            <!-- Petrol Station Signage -->
             <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
-                <div class="feature-box h-100 justify-content-start border-radius-5px bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover p-18 md-p-16 last-paragraph-no-margin">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
                     <div class="feature-box-icon">
-                        <a href="#">
-                            <i class="line-icon-Money-Bag icon-double-large text-base-color mb-25px"></i>
-                        </a>
+                        <i class="fas fa-gas-pump icon-double-large text-base-color mb-25px"></i>
+
                     </div>
                     <div class="feature-box-content">
-                        <a href="#" class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Financial Advisory</a>
-                        <p>Expert advice for your financial planning and investments.</p>
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Petrol Station Signage</span>
+                        <p>Custom signage tailored for fuel stations to ensure safety and branding.</p>
                     </div>
-                </div>  
+                </div>
             </div>
-            <!-- end service item -->
-            
-            <!-- start service item -->
+
+            <!-- Vehicle Branding -->
             <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
-                <div class="feature-box h-100 justify-content-start border-radius-5px bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover p-18 md-p-16 last-paragraph-no-margin">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
                     <div class="feature-box-icon">
-                        <a href="#">
-                            <i class="line-icon-Pie-Chart2 icon-double-large text-base-color mb-25px"></i>
-                        </a>
+                        <i class="line-icon-Car icon-double-large text-base-color mb-25px"></i>
                     </div>
                     <div class="feature-box-content">
-                        <a href="#" class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Business Analytics</a>
-                        <p>Data-driven insights to optimize your business performance.</p>
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Vehicle Branding</span>
+                        <p>Vehicle wraps and graphics for impactful mobile advertising.</p>
                     </div>
-                </div>  
+                </div>
             </div>
-            <!-- end service item -->
-            
-            <!-- start service item -->
-            <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
-                <div class="feature-box h-100 justify-content-start border-radius-5px bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover p-18 md-p-16 last-paragraph-no-margin">
+
+            <!-- Aircraft Branding -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
                     <div class="feature-box-icon">
-                        <a href="#">
-                            <i class="line-icon-Megaphone icon-double-large text-base-color mb-25px"></i>
-                        </a>
+                        <i class="fas fa-plane icon-double-large text-base-color mb-25px"></i>
                     </div>
                     <div class="feature-box-content">
-                        <a href="#" class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Marketing Strategy</a>
-                        <p>Effective marketing plans to grow your customer base.</p>
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Aircraft Branding</span>
+                        <p>Professional aircraft livery and custom branding solutions.</p>
                     </div>
-                </div>  
+                </div>
             </div>
-            <!-- end service item -->
-            
-            <!-- start service item -->
-            <div class="col icon-with-text-style-04 transition-inner-all sm-mb-30px">
-                <div class="feature-box h-100 justify-content-start border-radius-5px bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover p-18 md-p-16 last-paragraph-no-margin">
+
+            <!-- Window Branding -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
                     <div class="feature-box-icon">
-                        <a href="#">
-                            <i class="line-icon-MaleFemale icon-double-large text-base-color mb-25px"></i>
-                        </a>
+                        <i class="line-icon-Shop icon-double-large text-base-color mb-25px"></i>
                     </div>
                     <div class="feature-box-content">
-                        <a href="#" class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">HR Consulting</a>
-                        <p>Optimize your human resources for maximum productivity.</p>
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Window Branding</span>
+                        <p>Creative vinyls and decals for storefronts and glass walls.</p>
                     </div>
-                </div>  
+                </div>
             </div>
-            <!-- end service item -->
-            
-            <!-- start service item -->
-            <div class="col icon-with-text-style-04 transition-inner-all">
-                <div class="feature-box h-100 justify-content-start border-radius-5px bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover p-18 md-p-16 last-paragraph-no-margin">
+
+            <!-- Pylon Signage -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
                     <div class="feature-box-icon">
-                        <a href="#">
-                            <i class="line-icon-Basket-Coins icon-double-large text-base-color mb-25px"></i>
-                        </a>
+                        <i class="fas fa-sign icon-double-large text-base-color mb-25px"></i>
+
                     </div>
                     <div class="feature-box-content">
-                        <a href="#" class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Tax Planning</a>
-                        <p>Strategic tax solutions to minimize liabilities.</p>
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Pylon Signage</span>
+                        <p>Freestanding signs for visibility from long distances and highways.</p>
                     </div>
-                </div>  
+                </div>
             </div>
-            <!-- end service item -->
+
+            <!-- Internal Displays Branding -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="line-icon-TV icon-double-large text-base-color mb-25px"></i>
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Internal Displays Branding</span>
+                        <p>Digital display and interior signage for retail and corporate spaces.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RGB LED Signage -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="line-icon-Light-Bulb icon-double-large text-base-color mb-25px"></i>
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">RGB LED Signage</span>
+                        <p>Vibrant LED displays for advertisements, events, and public areas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Forex Rate Boards -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="line-icon-Line-Chart icon-double-large text-base-color mb-25px"></i>
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Forex Rate Boards</span>
+                        <p>Dynamic digital boards for banks and financial institutions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Moving Message LED Signage -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="line-icon-Talk-Man icon-double-large text-base-color mb-25px"></i>
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Moving Message LED Signage</span>
+                        <p>Scrolling LED signs for real-time messages and announcements.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- General Engraving -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="fas fa-tools icon-double-large text-base-color mb-25px"></i>
+
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">General Engraving</span>
+                        <p>Precision laser engraving on metal, acrylic, wood, and more.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Airport Signage -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="line-icon-Navigation-RightWindow icon-double-large text-base-color mb-25px"></i>
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Airport Signage</span>
+                        <p>Wayfinding and informational signage for airports and terminals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gantries -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="line-icon-Structure icon-double-large text-base-color mb-25px"></i>
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Gantries</span>
+                        <p>Large overhead signage structures for roads, tolls, and highways.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Promotional Materials -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="line-icon-Gift-Box icon-double-large text-base-color mb-25px"></i>
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Promotional Materials</span>
+                        <p>Custom branded corporate gifts, uniforms, and event merchandise.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- END LOOP -->
+
+            <!-- Promotional Materials -->
+            <div class="col icon-with-text-style-04 transition-inner-all mb-30px">
+                <div class="feature-box h-100 p-18 bg-white box-shadow-quadruple-large border-radius-5px">
+                    <div class="feature-box-icon">
+                        <i class="line-icon-Gift-Box icon-double-large text-base-color mb-25px"></i>
+                    </div>
+                    <div class="feature-box-content">
+                        <span class="alt-font text-dark-gray fw-600 fs-20">Floor graphics</span>
+                        <p>Custom branded corporate gifts, uniforms, and event merchandise.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- END LOOP -->
         </div>
 
         <div class="row mt-6" data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 100, "easing": "easeOutQuad" }'>
             <div class="col-12 text-center">
                 <h6 class="text-dark-gray ls-minus-1px lh-inherit m-0">
-                    Our <span class="fw-600 text-decoration-line-bottom-medium">committed services</span> are ready to help!
+                    We're committed to <span class="fw-600 text-decoration-line-bottom-medium">elevating your brand</span> through impactful signage.
                 </h6>
             </div>
         </div>
     </div>
 </section>
-<!-- end all services section -->
 
-<!-- start testimonials section -->
-<section class="position-relative border-bottom border-color-extra-medium-gray">
-    <div id="particles-02" data-particle="true" data-particle-options='{"particles": {"number": {"value": 5,"density": {"enable": true,"value_area": 1000}},"color":{"value":["#b7b9be", "#dd6531"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.5,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 8,"random": true,"anim": {"enable": false,"sync": true}},"move": {"enable": true,"speed":2,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}' class="position-absolute h-100 top-0 left-0 z-index-minus-1"></div>
-    <div class="container">
-        <div class="row justify-content-center mb-2">
-            <div class="col-lg-7 text-center" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="fw-600 ls-1px fs-16 alt-font d-inline-block text-uppercase mb-5px text-base-color">Few good reasons</span>
-                <h2 class="alt-font text-dark-gray fw-600 ls-minus-2px">Client testimonials</h2>
-            </div>
-        </div>
-        
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'> 
-            <!-- start testimonial item -->
-            <div class="col md-mb-30px">
-                <div class="testimonials testimonials-style-05 last-paragraph-no-margin">
-                    <div class="testimonials-bubble border-radius-5px border border-color-extra-medium-gray bg-white pt-30px pb-30px ps-40px pe-40px lg-p-25px mb-35px">
-                        <p>Their team are easy to work with and helped me make amazing websites in a short amount time.</p>
-                    </div>
-                    <div class="author ps-20px pe-20px">
-                        <img class="rounded-circle w-85px me-15px" src="https://via.placeholder.com/148x148" alt="Herman Miller">
-                        <div class="d-inline-block align-middle lh-20">
-                            <span class="fw-600 fs-18 text-dark-gray d-block mb-5px">Herman Miller</span>
-                            <div class="fs-15">CEO, TechCorp</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end testimonial item --> 
-            
-            <!-- start testimonial item -->
-            <div class="col md-mb-30px">
-                <div class="testimonials testimonials-style-05 last-paragraph-no-margin">
-                    <div class="testimonials-bubble border-radius-5px border border-color-extra-medium-gray bg-white pt-30px pb-30px ps-40px pe-40px lg-p-25px mb-35px">
-                        <p>Trust us we looked for a very long time and wasted thousands of dollars testing other teams.</p>
-                    </div>
-                    <div class="author ps-20px pe-20px">
-                        <img class="rounded-circle w-85px me-15px" src="https://via.placeholder.com/148x148" alt="Matthew Taylor">
-                        <div class="d-inline-block align-middle lh-20">
-                            <span class="fw-600 fs-18 text-dark-gray d-block mb-5px">Matthew Taylor</span>
-                            <div class="fs-15">Marketing Director</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end testimonial item --> 
-            
-            <!-- start testimonial item -->
-            <div class="col">
-                <div class="testimonials testimonials-style-05 last-paragraph-no-margin">
-                    <div class="testimonials-bubble border-radius-5px border border-color-extra-medium-gray bg-white pt-30px pb-30px ps-40px pe-40px lg-p-25px mb-35px">
-                        <p>I personally enjoyed the energy and the professional support the whole team gave to into website.</p>
-                    </div>
-                    <div class="author ps-20px pe-20px">
-                        <img class="rounded-circle w-85px me-15px" src="https://via.placeholder.com/148x148" alt="Leonel Mooney">
-                        <div class="d-inline-block align-middle lh-20">
-                            <span class="fw-600 fs-18 text-dark-gray d-block mb-5px">Leonel Mooney</span>
-                            <div class="fs-15">Operations Manager</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end testimonial item --> 
-        </div>
-    </div>
-</section>
-<!-- end testimonials section -->
+
+
 <!-- end testimonials section -->
 @endsection
 
