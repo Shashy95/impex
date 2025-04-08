@@ -5,7 +5,7 @@
 
 @section('content')
 <!-- start page title -->
-<section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5" style="background-image: url(https://via.placeholder.com/1925x1050)">
+<section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5" style="background-image: url('{{ asset('images/website-images/contact.jpg') }}');">
     <div class="opacity-light bg-dark-gray"></div>
     <div class="container">
         <div class="row align-items-center justify-content-center small-screen">
@@ -28,6 +28,64 @@
 <!-- Other sections from contact.html -->
 <section id="down-section">
     <!-- Contact info boxes -->
+
+
+
+    <section id="down-section">
+        <div class="container"> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 justify-content-center appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                <!-- start features box item -->
+                <div class="col icon-with-text-style-04 sm-mb-40px" style="">
+                    <div class="feature-box last-paragraph-no-margin">
+                        <div class="feature-box-icon">
+                            <i class="line-icon-Geo2-Love icon-extra-large text-base-color mb-25px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20">Makumbusho, </span>
+                            <p>Ali Hassan Mwinyi Road, Derm Plaza</p>
+                        </div>
+                    </div>  
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col icon-with-text-style-04 sm-mb-40px" style="">
+                    <div class="feature-box last-paragraph-no-margin">
+                        <div class="feature-box-icon">
+                            <i class="line-icon-Headset icon-extra-large text-base-color mb-25px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20">Call us directly</span>
+                            <div class="w-100 d-block">
+                                <span class="d-block">Phone: <a href="tel:1800222000" class="text-base-color-hover">1-800-222-000</a></span>
+                                <span class="d-block">Fax: 1-800-222-002</span>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col icon-with-text-style-04" style="">
+                    <div class="feature-box last-paragraph-no-margin">
+                        <div class="feature-box-icon">
+                            <i class="line-icon-Mail-Read icon-extra-large text-base-color mb-25px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20">E-mail us</span>
+                            <div class="w-100 d-block">
+                                <a href="mailto:info@yourdomain.com" class="d-block"> info@impexsignworks.co.tz</a>
+                             
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- end features box item --> 
+            </div>
+        </div>
+    </section>
+
+
+
+
 </section>
 
 <!-- Contact form section -->
