@@ -209,7 +209,7 @@ n>
 
 
 <!-- start cta section -->
-<section class="pt-4 pb-4 cover-background" style="background-image:url('https://via.placeholder.com/1920x408');">
+<section class="pt-4 pb-4 cover-background"   style="background-image: url('{{ asset('images/website-images/hero.jpg') }}');">
     <div class="opacity-extra-medium bg-gradient-black-dark-orange"></div>
     <div class="container position-relative"> 
         <div class="row align-items-center justify-content-center text-start text-sm-center text-lg-start">

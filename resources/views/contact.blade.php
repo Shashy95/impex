@@ -56,8 +56,8 @@
                         <div class="feature-box-content last-paragraph-no-margin">
                             <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20">Call us directly</span>
                             <div class="w-100 d-block">
-                                <span class="d-block">Phone: <a href="tel:1800222000" class="text-base-color-hover">1-800-222-000</a></span>
-                                <span class="d-block">Fax: 1-800-222-002</span>
+                                <span class="d-block">+255 688 888 833</span>
+                                <span class="d-block"> +255 754 656 539</span>
                             </div>
                         </div>
                     </div>  
