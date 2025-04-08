@@ -5,8 +5,9 @@
         <div class="row justify-content-center pt-7 sm-pt-50px">
             <!-- start footer column -->
             <div class="col-7 col-lg-3 col-md-12 col-sm-6 text-md-center text-lg-start md-mb-30px">
-                <a href="{{ route('home') }}" class="footer-logo mb-15px md-mb-20px d-inline-block"><img src="{{ asset('images/demo-consulting-logo-black.png') }}" data-at2x="{{ asset('images/demo-consulting-logo-black@2x.png') }}" alt=""></a>
-                <p class="mb-20px">Lorem ipsum dolor consectetur adipiscing eiusmod tempor.</p>
+                <span class="alt-font d-block text-dark-gray fw-600 mb-10px fs-19">About Ipex</span>
+                <p class="mb-20px">Impex sign work strives to be the market leader in introducing new, cost-effective and guaranteed 
+                    signage that is manufactured to meet and...</p>
                 <div class="elements-social social-icon-style-02">
                     <ul class="medium-icon dark icon-with-animation">
                         <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -85,16 +86,11 @@
             </div>
             <!-- end divider -->
             <!-- start copyright -->
-            <div class="col-lg-6 pt-25px pb-25px md-pt-0 fs-16 last-paragraph-no-margin order-2 order-lg-1 text-center text-lg-start"><p>&copy; {{ date('Y') }} Crafto is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-dark-gray fw-500">ThemeZaa</a></p></div>
+            <div class="col-lg-6 pt-25px pb-25px md-pt-0 fs-16 last-paragraph-no-margin order-2 order-lg-1 text-center text-lg-start"><p>&copy; {{ date('Y') }} Ipex Company Limited <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-dark-gray fw-500"></a></p></div>
             <!-- end copyright -->
             <!-- start footer menu -->
-            <div class="col-lg-6 pt-25px pb-25px md-pb-5px fs-16 order-1 order-lg-2 text-center text-lg-end">
-                <ul class="footer-navbar md-lh-normal"> 
-                    <li class="nav-item"><a href="#" class="nav-link">Privacy policy</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Terms and conditions</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Copyright</a></li>
-                </ul>
-            </div>
+         
+        
             <!-- end footer menu -->
         </div>
     </div> 
