@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Our Services - Crafto Consulting')
+@section('title', 'Our Services')
 @section('description', 'Professional consulting services for your business growth')
 
 @section('content')
